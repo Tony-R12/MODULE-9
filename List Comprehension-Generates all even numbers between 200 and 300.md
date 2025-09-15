@@ -6,6 +6,7 @@ To Write a Python program to generate an Arithmetic Progression using list Compr
 ## 🧠 ALGORITHM:
 
 1. **Start**
+
 2.Define a Class: Create a class named Generate that will encapsulate the logic for generating the arithmetic progression.
 
 3.Initialize the Class (__init__): In the constructor (__init__), accept three parameters: first (the starting number), d (the common difference), and last (the ending number). Store these values as instance attributes (self.first, self.d, self.last).
@@ -15,6 +16,7 @@ To Write a Python program to generate an Arithmetic Progression using list Compr
 5.Implement List Comprehension: Inside the Ap_generate method, use a list comprehension [i for i in range(self.first, self.last + 1, self.d)] to create the arithmetic progression. This will iterate from the first number to the last number (inclusive), with a step size of d.
 
 6.Return the List: The Ap_generate method should return the newly created list containing the arithmetic progression. 
+
 7. **Stop**
 
 ---
